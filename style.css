@@ -1,0 +1,94 @@
+:root {
+  --bg: linear-gradient(135deg, #ffecd2, #fcb69f);
+  --box-bg: #fff0f5;
+  --box-border: #ff69b4;
+  --text-color: #d63384;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: var(--bg);
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: background 0.5s ease;
+}
+
+h1 {
+  margin-top: 30px;
+  color: #333;
+  font-size: 2.2rem;
+  animation: fadeIn 1s ease;
+}
+
+.controls {
+  margin: 20px;
+  animation: fadeIn 1s ease 0.2s;
+  animation-fill-mode: both;
+}
+
+select, button {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  margin: 0 10px;
+  border: 1px solid #555;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+select:hover, button:hover {
+  transform: scale(1.05);
+}
+
+#measure-box {
+  width: 60%;
+  height: 250px;
+  margin: 30px auto;
+  background-color: var(--box-bg);
+  border: 3px dashed var(--box-border);
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s ease;
+  cursor: crosshair;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease 0.4s;
+  animation-fill-mode: both;
+}
+
+#output {
+  font-size: 1.6rem;
+  margin-top: 20px;
+  color: var(--text-color);
+  min-height: 100px;
+  animation: fadeIn 0.8s ease;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.trail-dot {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: var(--text-color);
+  border-radius: 50%;
+  pointer-events: none;
+  opacity: 0.7;
+  animation: fadeTrail 0.6s linear;
+}
+
+@keyframes fadeTrail {
+  from { opacity: 0.7; }
+  to { opacity: 0; }
+}

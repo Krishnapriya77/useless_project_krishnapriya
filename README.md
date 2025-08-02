@@ -1,34 +1,39 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [Project Name] 🎯
+# [The Delusional Ruler] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [Individual]
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: [Krishna Priya B] - [LBS Institute of Technology for Women,Poojapura,TVM ]
 
 ### Project Description
-[2-3 lines about what your project does]
+[Absolutely Incorrect Ruler is a hilariously useless measuring tool that calculates distances in absurd units like jellybeans, flamingos, and existential dread. With random themes, funny comments, mouse trails, and sound effects.]
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+[Tired of boring units like inches or centimeters. This ruler lets you measure things in Flamingos, Jellybeans, or even Existential Dread Units. It's wildly inaccurate, completely useless — and 100% necessary.]
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+[This is a absolutely useless measuring tool that gives results in ridiculous units. It doesn’t aim to be accurate — just entertaining. Perfect for wasting time with style.]
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
 - [Languages used]
+    HTML
+    CSS
+    Javascript
 - [Frameworks used]
+    None
 - [Libraries used]
+    Google Fonts 
 - [Tools used]
+    Visual Studio Code
+    GitHub
 
 For Hardware:
 - [List main components]
@@ -41,20 +46,21 @@ For Software:
 [commands]
 
 # Run
-[commands]
+[ To run the commands I used-git clone repolink
+ To run - opened index.html with Live Server]
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+useless_project_krishnapriya\Screenshot 2025-08-02 070003.png
+    -Opening
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+useless_project_krishnapriya\Screenshot 2025-08-02 070019.png
+    -After giving the input , shows the results not in ridiculous units
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+useless_project_krishnapriya\Screenshot 2025-08-02 070041.png
+    -Change in theme that is used which changes after every 5 secs
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
